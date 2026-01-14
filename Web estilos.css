@@ -1,0 +1,96 @@
+body {
+    font-family: 'Lexend', sans-serif;
+    color: #5ff2f7;
+}
+.titulo {
+    background-color: rgb(69, 19, 134);
+    border: 4px solid #d41ea7;
+    color: #5ff2f7;
+    text-align: center;
+    margin-top: 1em;
+    font-size: 4em;
+    
+}
+.titulo2 {
+    background-color: rgb(69, 19, 134);
+    border: 4px solid #d41ea7;
+    color: #5ff2f7;
+    text-align: center;   /* centra el texto */
+        font-size: 1.2em;     /* reduce tamaño en pantallas pequeñas */
+        margin: 0.5em auto;   /* ajusta márgenes */
+        display: block;       /* asegura que se comporte como bloque */
+    
+}
+.regla {
+    font-family: 'Zalando Sans SemiExpanded', sans-serif;
+    font-weight: bold;
+    color: #5ff2f7;
+    background-color: #d41ea6a1;
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin: 0 2em 1em 2em;
+    text-align: center;
+}    
+.cta-contenedor {
+  font-family: 'Zalando Sans SemiExpanded', sans-serif;
+  font-size: 1.2em;
+  color: #5ff2f7;
+  background-color: rgb(69, 19, 134);
+  padding: 1em 2em;
+  text-align: center;
+  border-radius: 10px;
+  margin: 2em auto;
+  max-width: 600px;
+}
+
+.cta-contenedor a {
+  color: #ffeb3b;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.cta-contenedor a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.parrafo {
+    font-family: 'Zalando Sans SemiExpanded', sans-serif;
+}
+ul {
+    font-family: 'Zalando Sans SemiExpanded', sans-serif;
+    background-color: #d41ea6a1;
+}
+
+.link-destacado {
+    font-family: 'Zalando Sans SemiExpanded', sans-serif;
+       
+    color: #5ff2f7; /* morado elegante */
+    text-decoration: none; /* quita el subrayado si quieres */
+}
+.link-destacado:hover {
+    color: #e2dddf; /* cambia de color al pasar el mouse */
+}
+
+@media (min-width: 200px) and (max-width: 600px) {
+    .images img {
+        width: 100%;
+        height: auto;
+        margin: 1.5em 0;
+        display: block;
+    }
+}
+
+    .images {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* centra horizontalmente las imágenes */
+    gap: 1.5em;           /* espacio entre imágenes */
+    margin: 2em auto;     /* centra el contenedor */
+}
+.images img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
